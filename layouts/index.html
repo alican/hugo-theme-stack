@@ -8,6 +8,7 @@
         {{ range $index, $element := $pag.Pages }}
             {{ partial "article-list/default" . }}
         {{ end }}
+        
     </section>
 
     {{- partial "pagination.html" . -}}

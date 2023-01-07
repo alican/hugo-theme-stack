@@ -1,5 +1,7 @@
-{{- $ThemeVersion := "3.15.0" -}}
+{{- $ThemeVersion := "3.16.0" -}}
 <footer class="site-footer">
+
+    
     <section class="copyright">
         &copy; 
         {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
